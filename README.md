@@ -4,7 +4,7 @@ recipeの文字を消せるようにする
 ## 今やっていること
 recipe.vueの日本語をstates.tsに移す
 ## メモ
-composables/states.ts
+composables/states.ts\n
 ソース管理からメッセージを入れてCommitを押して保存
 # Nuxt 3 Minimal Starter
 
