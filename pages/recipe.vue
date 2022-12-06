@@ -13,7 +13,7 @@
         </div>
         <div class="col-md-8">
           <div class="card-body">
-            <h5 class="card-title">{{section1}}</h5>
+            <h5 class="card-title">{{data.section1}}</h5>
             <div class="card-text">
               <ul>
                 <li v-for="item in data.material">{{ item.text }}</li>
@@ -25,9 +25,9 @@
     </div>
   </div>
   <div class="container mb-5">
-    <h2>{{section2}}</h2>
+    <h2>{{data.section2}}</h2>
     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
-      <div v-for = "rp in recipes" class="col border p-2">
+      <div v-for = "rp in data.recipes" class="col border p-2">
         <div class="mb-2"><span class="badge bg-secondary">{{rp.id}}</span></div>
         <p>{{rp.text}}</p>
       </div>
