@@ -18,9 +18,9 @@ export const useRecipe = () => useState('recipe', () => {
         section2:"作り方",
         recipes: [
           { id: "1", 
-           text: "☆をボウルに混ぜ合わせておく。" },
+          text: "☆をボウルに混ぜ合わせておく。" },
           { id: "2", 
-           text: "別のボウルに★を全て混ぜ合わせておく。" },
+          text: "別のボウルに★を全て混ぜ合わせておく。" },
           {
             id: "3",
             text:
