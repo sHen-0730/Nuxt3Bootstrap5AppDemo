@@ -4,8 +4,8 @@ recipeの文字を消せるようにする
 ## 今やっていること
 recipe.vueの日本語をstates.tsに移す
 ## メモ
-・作業を始めるときcodespaceを実行　→　立ち上がったら「Ctrl+@」でターミナルを開いて、「yarn dev」のコマンドをたたく　→　ポートから表示範囲をPublicにする
-・composables/states.ts
+・作業を始めるときcodespaceを実行　→　立ち上がったら「Ctrl+@」でターミナルを開いて、「yarn dev」のコマンドをたたく　→　ポートから表示範囲をPublicにする　　　　　　　　　　
+・composables/states.ts　　　　　　　　　　　　　　
 ・ソース管理からメッセージを入れてCommitを押して保存
 # Nuxt 3 Minimal Starter
 
