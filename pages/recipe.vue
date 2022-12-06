@@ -27,7 +27,7 @@
   <div class="container mb-5">
     <h2>{{section2}}</h2>
     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
-      <div v-for = "rp in recipes"  class="col border p-2">
+      <div v-for = "rp in recipes" class="col border p-2">
         <div class="mb-2"><span class="badge bg-secondary">{{rp.id}}</span></div>
         <p>{{rp.text}}</p>
       </div>
