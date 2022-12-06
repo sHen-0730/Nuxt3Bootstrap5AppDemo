@@ -3,7 +3,8 @@ export const useRecipe = () => useState('recipe', () => {
       title: "美味しさNo.1！KFC風フライドチキン",
       description:
         "KFC人気レシピ1位！数あるKFCレシピ─どれも何か一味足りない気が。試行錯誤の末の主人も絶賛☆再現率の高いレシピです☆",
-      material: [
+        section:"材料",
+        material: [
         { text: "鶏肉(お好きな部位)　２〜３枚位" },
         { text: "☆牛乳　1/2カップ" },
         { text: "☆卵　１個" },
@@ -13,6 +14,7 @@ export const useRecipe = () => useState('recipe', () => {
         { text: "★顆粒コンソメ　大さじ1/2" },
         { text: "★塩　大さじ1/2" },
         { text: "あれば★パプリカパウダー　小さじ１" },
-      ]
+      ],
+
     }
   })
