@@ -56,5 +56,5 @@
   </div>
 </template>
 <script setup>
- const data = useRecipe()
+const data = useRecipe()
 </script>
