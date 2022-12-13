@@ -1,5 +1,5 @@
 # 目標
-recipeの文字を消せるようにする
+考え中
 
 ## 今やっていること
 recipe.vueの日本語をstates.tsに移す

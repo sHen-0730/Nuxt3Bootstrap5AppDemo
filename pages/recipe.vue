@@ -37,12 +37,10 @@
   <div class="container mb-5">
     <div class="row gx-5">
       <div class="col-sm">
-        <h3>コツ・ポイント</h3>
+        <h3>{{data.section3}}</h3>
 
-        <p>揚げる際鍋底での焦げ防止に衣が軽く揚がるまで菜箸等で時々浮かせて下さい</p>
-        <p>好みで粉類に粗びき黒胡椒小さじ1/2を足しても◎</p>
-        <p>にんにくチューブ２センチはガーリックパウダー小さじ１に変えて粉類と混ぜても美味しいです。</p>
-        <p>パプリカパウダーは無くても可</p>
+        <p v-for = "kp in point">{{kp.text}}</p>
+
       </div>
       <div class="col-sm">
         <h3>このレシピの生い立ち</h3>
