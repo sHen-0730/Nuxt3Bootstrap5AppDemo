@@ -2,7 +2,7 @@
 recipe.vueを参考に新しくWebサイトを作ってみる
 
 ## 今やっていること
-Nuxtで何ができるのか、他のWeb開発との違いを理解する
+pagesに新しくファイルを作って、webサイトを作成中
 ## メモ
 - 作業を始めるときcodespaceを実行　→　立ち上がったら「___Ctrl+@___」でターミナルを開いて、「___yarn dev___」のコマンドをたたく　→　ポートから表示範囲をPublicにする
 - composables/states.ts  
