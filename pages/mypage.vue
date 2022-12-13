@@ -1,6 +1,6 @@
 <template>
-  <div class="container text-center my-5">
-    <h1>{{ data.title }}</h1>
+  <div class="container my-5">
+    <h1>京都紹介</h1>
     <div class="alert alert-primary" role="alert">{{ data.description }}</div>
   </div>
   <div class="container mb-5">
