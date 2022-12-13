@@ -39,7 +39,7 @@
       <div class="col-sm">
         <h3>{{data.section3}}</h3>
 
-        <p v-for = "kp in point">{{kp.text}}</p>
+        <p v-for = "kp in data.point">{{kp.text}}</p>
 
       </div>
       <div class="col-sm">
