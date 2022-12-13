@@ -1,8 +1,8 @@
 # 目標
-考え中
+recipe.vueの内容を変更してWebサイトを作ってみる
 
 ## 今やっていること
-recipe.vueの日本語をstates.tsに移す
+Nuxtで何ができるのか、他のWeb開発との違いを理解する
 ## メモ
 - 作業を始めるときcodespaceを実行　→　立ち上がったら「___Ctrl+@___」でターミナルを開いて、「___yarn dev___」のコマンドをたたく　→　ポートから表示範囲をPublicにする
 - composables/states.ts  
