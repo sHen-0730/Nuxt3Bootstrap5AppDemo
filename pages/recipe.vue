@@ -43,8 +43,8 @@
 
       </div>
       <div class="col-sm">
-        <h3>{{section4}}</h3>
-        <p v-for = "bg in background">{{bg.text}}</p>
+        <h3>{{data.section4}}</h3>
+        <p v-for = "bg in data.background">{{bg.text}}</p>
       </div>
     </div>
   </div>
