@@ -6,11 +6,6 @@
   <div class="container mb-5">
     <div class="card mb-3 mx-auto">
       <div class="row g-0">
-        <div class="col-md-4">
-          <img
-            src="https://img.cpcdn.com/recipes/3695776/894x1461s/03855e67f64548a05b1f995faabe8f57?u=12868943&p=1455726325"
-            class="img-fluid rounded-start" alt="...">
-        </div>
         <div class="col-md-8">
           <div class="card-body">
             <h5 class="card-title">{{data.section1}}</h5>
