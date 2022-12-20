@@ -1,7 +1,9 @@
 <template>
   <div class="container my-5">
     <h1>京都紹介</h1>
-    <div class = "container-fluid img-hidden"></div>
+    <div class="container-fluid img-hidden">
+     <img src="../image/kiyomizu.jpg" class="img-fluid">
+    </div>
   </div>
   <div class="container mb-5">
     <div class="card mb-3 mx-auto">
