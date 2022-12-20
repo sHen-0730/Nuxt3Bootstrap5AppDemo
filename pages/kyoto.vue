@@ -1,7 +1,7 @@
 <template>
   <div class="container my-5">
     <h1>京都紹介</h1>
-    <div class="alert alert-primary" role="alert">{{ data.description }}</div>
+    <div class = "container-fluid img-hidden"></div>
   </div>
   <div class="container mb-5">
     <div class="card mb-3 mx-auto">
