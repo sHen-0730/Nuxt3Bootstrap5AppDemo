@@ -53,5 +53,5 @@
   </div>
 </template>
 <script setup>
-const data = useRecipe()
+const data = useWeb()
 </script>
