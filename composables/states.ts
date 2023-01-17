@@ -86,7 +86,7 @@ export const useRecipe = () => useState('recipe', () => {
 
   export const useWeb = () => useState('kyoto', () => {
     return {
-      title: "美味しさNo.1！KFC風フライドチキン",
+      title: "清水寺",
       description:
         "KFC人気レシピ1位！数あるKFCレシピ─どれも何か一味足りない気が。試行錯誤の末の主人も絶賛☆再現率の高いレシピです☆",
         contents:"目次",

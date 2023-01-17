@@ -6,25 +6,27 @@
       </button>
 </nav>
   <div class="container my-5">
-    <h1 class="border-bottom border-2 pb-2 my-3 border-success">清水寺</h1>
+    <h1 class="border-bottom border-2 pb-2 my-3 border-success">{{data.title}}</h1>
     <div class="container-fluid img-hidden">
-    <img src="../image/kiyomizu.jpg" class="img-fluid">
+    <img src="../asset/kiyomizu.jpg" class="img-fluid">
     </div>
   </div>
   <div class="container mb-5">
-    <div class="card mb-3 mx-auto">
-      <div class="row g-0">
+    <div class="card mb-3 ">
         <div class="col-md-8">
+          <div class="card-header">
+              目次
+          </div>
           <div class="card-body">
-            <h5 class="card-title">{{data.contents}}</h5>
             <div class="card-text">
-              <ul>
-                <li v-for="item in data.material">{{ item.text }}</li>
-              </ul>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Cras justo odio</li>
+              <li class="list-group-item">Dapibus ac facilisis in</li>
+              <li class="list-group-item">Vestibulum at eros</li>
+  </ul>
             </div>
           </div>
         </div>
-      </div>
     </div>
   </div>
   <div class="container mb-5">
