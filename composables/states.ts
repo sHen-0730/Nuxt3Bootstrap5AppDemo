@@ -88,8 +88,10 @@ export const useRecipe = () => useState('recipe', () => {
     return {
       title: "清水寺",
         contents:"目次",
-        material: [
-
+        items: [
+        {text:"清水寺について"},
+        {text:"見どころ"},
+        {text:"周辺の観光スポット"},
       ],
 
     }
