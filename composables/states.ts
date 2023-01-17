@@ -87,19 +87,9 @@ export const useRecipe = () => useState('recipe', () => {
   export const useWeb = () => useState('kyoto', () => {
     return {
       title: "清水寺",
-      description:
-        "KFC人気レシピ1位！数あるKFCレシピ─どれも何か一味足りない気が。試行錯誤の末の主人も絶賛☆再現率の高いレシピです☆",
         contents:"目次",
         material: [
-        { text: "鶏肉(お好きな部位)　２〜３枚位" },
-        { text: "☆牛乳　1/2カップ" },
-        { text: "☆卵　１個" },
-        { text: "☆にんにくチューブ　２センチ位" },
-        { text: "★薄力粉　１カップ" },
-        { text: "★オールスパイス　小さじ１弱" },
-        { text: "★顆粒コンソメ　大さじ1/2" },
-        { text: "★塩　大さじ1/2" },
-        { text: "あれば★パプリカパウダー　小さじ１" },
+
       ],
 
     }

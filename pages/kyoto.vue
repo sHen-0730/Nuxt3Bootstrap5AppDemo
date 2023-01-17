@@ -13,7 +13,6 @@
   </div>
   <div class="container mb-5">
     <div class="card mb-3 ">
-        <div class="col-md-8">
           <div class="card-header">
               目次
           </div>
@@ -26,31 +25,6 @@
   </ol>
             </div>
           </div>
-        </div>
-    </div>
-  </div>
-  <div class="container mb-5">
-    <h2>{{data.section2}}</h2>
-    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
-      <div v-for = "rp in data.recipes" class="col border p-2">
-        <div class="mb-2"><span class="badge bg-secondary">{{rp.id}}</span></div>
-        <p>{{rp.text}}</p>
-      </div>
-    </div>
-  </div>
-
-  <div class="container mb-5">
-    <div class="row gx-5">
-      <div class="col-sm">
-        <h3>{{data.section3}}</h3>
-
-        <p v-for = "kp in data.point">{{kp.text}}</p>
-
-      </div>
-      <div class="col-sm">
-        <h3>{{data.section4}}</h3>
-        <p v-for = "bg in data.background">{{bg.text}}</p>
-      </div>
     </div>
   </div>
 </template>
