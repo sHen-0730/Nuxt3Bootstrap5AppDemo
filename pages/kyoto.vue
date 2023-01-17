@@ -16,7 +16,7 @@
       <div class="row g-0">
         <div class="col-md-8">
           <div class="card-body">
-            <h5 class="card-title">{{data.section1}}</h5>
+            <h5 class="card-title">{{data.contents}}</h5>
             <div class="card-text">
               <ul>
                 <li v-for="item in data.material">{{ item.text }}</li>
