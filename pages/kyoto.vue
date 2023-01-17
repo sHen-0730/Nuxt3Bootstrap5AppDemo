@@ -8,7 +8,7 @@
   <div class="container my-5">
     <h1 class="border-bottom border-2 pb-2 my-3 border-success">{{data.title}}</h1>
     <div class="container-fluid img-hidden">
-    <img src="../image/kiyomizu.jpg" class="img-fluid">
+    <img src="../images/kiyomizu.jpg" class="img-fluid">
     </div>
   </div>
   <div class="container mb-5">
@@ -19,11 +19,11 @@
           </div>
           <div class="card-body">
             <div class="card-text">
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">Cras justo odio</li>
-              <li class="list-group-item">Dapibus ac facilisis in</li>
-       <li class="list-group-item">Vestibulum at eros</li>
-  </ul>
+            <ol class="list-group list-group-flush">
+              <li class="list-group-item">清水寺について</li>
+              <li class="list-group-item">見どころ</li>
+       <li class="list-group-item">周辺スポット</li>
+  </ol>
             </div>
           </div>
         </div>
