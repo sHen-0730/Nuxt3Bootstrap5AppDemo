@@ -21,7 +21,7 @@
             <ol class="list-group list-group-flush">
               <li class="list-group-item">清水寺について</li>
               <li class="list-group-item">見どころ</li>
-       <li class="list-group-item">周辺スポット</li>
+              <li class="list-group-item">周辺スポット</li>
   </ol>
             </div>
           </div>
