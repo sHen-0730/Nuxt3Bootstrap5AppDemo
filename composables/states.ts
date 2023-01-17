@@ -93,6 +93,6 @@ export const useRecipe = () => useState('recipe', () => {
         {text:"見どころ"},
         {text:"周辺の観光スポット"},
       ],
-
+      section1:"清水寺について",
     }
   })

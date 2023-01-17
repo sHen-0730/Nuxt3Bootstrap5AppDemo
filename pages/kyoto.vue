@@ -8,7 +8,7 @@
   <div class="container my-5">
     <h1 class="border-bottom border-2 pb-2 my-3 border-success">{{data.title}}</h1>
     <div class="container-fluid img-hidden">
-    <img src="../images/kiyomizu.jpg" class="img-fluid">
+    <img src="~/assets/images/kiyomizu.jpg" class="img-fluid">
     </div>
   </div>
   <div class="container mb-5">
@@ -24,6 +24,9 @@
             </div>
           </div>
     </div>
+  </div>
+    <div class="container mb-5">
+    <h2 class="border-bottom border-2 pb-2 my-3 border-success">{{data.section1}}</h2>
   </div>
 </template>
 <script setup>
