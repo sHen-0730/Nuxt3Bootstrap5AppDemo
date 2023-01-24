@@ -41,7 +41,7 @@
     </div>
 
     <div class="container md-5">
-    <h2 class="border-bottom border-2 pb-2 my-3 border-success">{{data.section1}}</h2>
+    <h2 class="border-bottom border-2 pb-2 my-3 border-success">見どころ</h2>
           <div class="row">
             <div class="col-sm">
               <p class="lh-lg">清水寺は西暦７７８年に創建され、残された記録だけでも９回の焼失があるという
@@ -52,7 +52,7 @@
     </div>
 
     <div class="container md-5">
-    <h2 class="border-bottom border-2 pb-2 my-3 border-success">{{data.section1}}</h2>
+    <h2 class="border-bottom border-2 pb-2 my-3 border-success">季節ごとの景色</h2>
           <div class="row">
             <div class="col-sm">
               <p class="lh-lg">清水寺は西暦７７８年に創建され、残された記録だけでも９回の焼失があるという

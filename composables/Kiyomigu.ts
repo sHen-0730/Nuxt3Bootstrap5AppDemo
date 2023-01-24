@@ -5,7 +5,7 @@ export const useWeb = () => useState('kyoto', () => {
         items: [
         {text:"清水寺について"},
         {text:"見どころ"},
-        {text:"周辺の観光スポット"},
+        {text:"季節ごとの景色"},
       ],
       section1:"清水寺について",
     }
