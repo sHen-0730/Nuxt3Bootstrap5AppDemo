@@ -33,36 +33,31 @@
     </div>
           <div class="row">
             <div class="col-sm">
-              <p class="lh-lg" v-for = "ex1 in explanation1">{{ex1.text}}</p>
+              <p class="lh-lg" v-for = "ex1 in data.explanation1">{{ex1.text}}</p>
             </div>
           </div>
     </div>
 
     <div class="container md-5">
-    <h2 class="border-bottom border-2 pb-2 my-3 border-success">見どころ</h2>
+    <h2 class="border-bottom border-2 pb-2 my-3 border-success">{{data.section2}}</h2>
           <div class="row">
             <div class="col-sm">
             <div class="container-fluid img-hidden">
     <img src="~/assets/images/niou.jpg" class="img-fluid mb-3">
     </div>
-              <p class="lh-lg">清水寺の入口にある重要文化財である仁王門。<br>
-              正面に掲げられている額縁は、平安時代中期の書家として知られる藤原行成（ふじわらのゆきなり）が書いたと伝えられています。門の両脇には、鎌倉時代末期の金剛力士像がおかれており、
-              像高３６５㎝で、京都では最大級の金剛力士像とされています。<br>
-              観光での楽しみ方としては、清水の舞台から御所が見えないように建てられたといわれているので、清水の舞台に行った際には、仁王門を探して御所が見えるかを
-              試してみてください。</p>
+              <p class="lh-lg" v-for = "ex2 in data.explanation2">{{ex2.text}}</p>
             </div>
           </div>
     </div>
 
     <div class="container md-5">
-    <h2 class="border-bottom border-2 pb-2 my-3 border-success">季節ごとの景色</h2>
+    <h2 class="border-bottom border-2 pb-2 my-3 border-success">{{data.section3}}</h2>
           <div class="row">
             <div class="col-sm">
                   <div class="container-fluid img-hidden">
     <img src="~/assets/images/aki.jpg" class="img-fluid mb-3">
             </div>
-              <p class="lh-lg">清水寺境内の木々が赤く色づき始めるのは11月中旬ごろ。約1,000本の山紅葉や楓（かえで）の木々が赤く染まり、11月下旬から12月上旬にかけて紅葉の見頃を迎えます。
-紅葉が見頃の時期に合わせて、清水寺ではライトアップと夜間特別拝観を実施。太陽の光に照らされた眩しい紅葉も美しいですが、ライトアップによってオレンジ色に輝く様子も見逃せません。</p>
+              <p class="lh-lg" v-for = "ex3 in data.explanation3">{{ex3.text}}</p>
             </div>
           </div>
     </div>
