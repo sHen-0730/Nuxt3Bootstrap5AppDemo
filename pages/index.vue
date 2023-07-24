@@ -21,7 +21,7 @@
     <ul class="list-group list-group-flush">
     <li class="list-group-item mx-auto my-auto">
       <button type="button" class="btn btn-light px-3 py-3 my-4">
-        <NuxtLink to="journal.vue" class="text-dark text-decoration-none">複合仕訳入力</NuxtLink>
+        <NuxtLink to="/journal.vue" class="text-dark text-decoration-none">複合仕訳入力</NuxtLink>
       </button>
     </li>
     <li class="list-group-item mx-auto my-auto">
