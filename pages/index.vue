@@ -19,7 +19,7 @@
   <div class="card my-5">
     <div class="card-header" style="background-color: #99cce1">{{data.section1}}</div>
     <ul class="list-group list-group-flush">
-    <li class="list-group-item mx-auto my-auto">
+    <li class="list-group-item mx-auto my-auto" v-for="bt in button">
       <button type="button" class="btn btn-light px-3 py-3 my-4">
         <NuxtLink to="#" class="text-dark text-decoration-none">複合仕訳入力</NuxtLink>
       </button>
@@ -41,7 +41,7 @@
 
   <div class = "col-sm-10">
     <div class="card my-5">
-    <div class="card-header" style="background-color: #a3d592">各種出力</div>
+    <div class="card-header" style="background-color: #a3d592">{{data.section2}}</div>
     <div class="card-body">
       <div class = "row">
         <ul class="list-group list-group-flush">
