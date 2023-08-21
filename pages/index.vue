@@ -17,11 +17,11 @@
   <div class = "row">
   <div class = "col-sm-2">
   <div class="card my-5">
-    <div class="card-header" style="background-color: #99cce1">各種入力</div>
+    <div class="card-header" style="background-color: #99cce1">{{data.section1}}</div>
     <ul class="list-group list-group-flush">
     <li class="list-group-item mx-auto my-auto">
       <button type="button" class="btn btn-light px-3 py-3 my-4">
-        <NuxtLink to="pages/kyoto.vue" class="text-dark text-decoration-none">複合仕訳入力</NuxtLink>
+        <NuxtLink to="#" class="text-dark text-decoration-none">複合仕訳入力</NuxtLink>
       </button>
     </li>
     <li class="list-group-item mx-auto my-auto">
