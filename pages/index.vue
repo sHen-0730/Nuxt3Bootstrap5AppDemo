@@ -2,7 +2,7 @@
 <div class = "container"> 
   
     <nav class="navbar navbar-expand-sm navbar-dark p-3" style="background-color: #5183C3">
-        <a class="navbar-brand" href="#">円簿会計</a>
+        <a class="navbar-brand" href="#">{{data.title}}</a>
         <button class="navbar-toggler" type="button">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -21,7 +21,7 @@
     <ul class="list-group list-group-flush">
     <li class="list-group-item mx-auto my-auto">
       <button type="button" class="btn btn-light px-3 py-3 my-4">
-        <NuxtLink to="jounal/index" class="text-dark text-decoration-none">複合仕訳入力</NuxtLink>
+        <NuxtLink to="#" class="text-dark text-decoration-none">複合仕訳入力</NuxtLink>
       </button>
     </li>
     <li class="list-group-item mx-auto my-auto">
@@ -72,3 +72,6 @@
 </div>
 
 </template>
+   <script setup>
+    const data = zaimu()
+    </script>
