@@ -7,7 +7,7 @@
     <ul class="list-group list-group-flush">
     <li class="list-group-item mx-auto my-auto" v-for="bt in button">
       <button type="button" class="btn btn-light px-3 py-3 my-4">
-        <NuxtLink to="recipe" class="text-dark text-decoration-none">複合仕訳入力</NuxtLink>
+        <NuxtLink to="recipe" class="text-dark text-decoration-none">複合仕訳</NuxtLink>
       </button>
     </li>
     <li class="list-group-item mx-auto my-auto">
